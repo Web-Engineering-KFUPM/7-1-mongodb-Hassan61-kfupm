@@ -188,7 +188,7 @@
 import mongoose from "mongoose";
 
 // establish connection
-
+mongodb+srv://s202276380_db_user:BlahBlah@cluster0.tlmbuc0.mongodb.net/
 
 // define schema
 
