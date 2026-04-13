@@ -203,6 +203,7 @@ const studentSchema = new mongoose.Schema({
 
 // create document
 
+const Student = mongoose.model("Student", studentSchema);
 
 // read document
 
