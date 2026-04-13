@@ -194,6 +194,11 @@ mongoose.connect("mongodb+srv://s202276380_db_user:BlahBlah@cluster0.tlmbuc0.mon
 
 
 // define schema
+const studentSchema = new mongoose.Schema({
+  name: String,
+  age: Number,
+  major: String
+});
 
 
 // create document
