@@ -188,7 +188,10 @@
 import mongoose from "mongoose";
 
 // establish connection
-mongodb+srv://s202276380_db_user:BlahBlah@cluster0.tlmbuc0.mongodb.net/
+mongoose.connect("mongodb+srv://s202276380_db_user:BlahBlah@cluster0.tlmbuc0.mongodb.net/")
+  .then(() => console.log("✅ Connected to MongoDB"))
+  .catch((err) => console.log("❌ Connection error:", err));
+
 
 // define schema
 
